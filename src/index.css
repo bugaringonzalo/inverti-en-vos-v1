@@ -24,6 +24,8 @@
     --input: 39 99% 67% / 0.2;
     --ring: 39 99% 67%;
     --radius: 0.75rem;
+    --shadow-background: 42.1, 100%, 50%, 0.51;
+    --shadow-background-light: 42.1, 100%, 50%, 0.2;
   }
 }
 

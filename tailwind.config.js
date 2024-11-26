@@ -51,6 +51,15 @@ export default {
           DEFAULT: 'hsl(var(--destructive))',
           foreground: 'hsl(var(--destructive-foreground))',
         },
+        // necesito un estilo con estos valores hsla(42.1, 100%, 50.8%, 0.5)
+        // y hsla(42.1, 100%, 50.8%, 0.1)
+        // para las sombras
+        shadow: {
+          DEFAULT: 'hsla(var(--shadow-background))',
+          light: 'hsla(var(--shadow-backgound-light))',
+        },
+        // y un color de escritura blanco hsl(0, 0%, 100%)
+        white: 'hsl(0, 0%, 100%)',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
