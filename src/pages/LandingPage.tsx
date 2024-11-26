@@ -115,7 +115,7 @@ const LandingPage = () => {
               <Button
                 asChild
                 size="lg"
-                className="w-full md:w-auto bg-purple hover:bg-purple/90"
+                className="w-full md:w-auto bg-purpleLight hover:bg-purple/90"
               >
                 <Link to="/contact">
                   Agendar Consulta
@@ -138,7 +138,7 @@ const LandingPage = () => {
       <section className="min-h-screen flex items-center snap-start snap-always bg-secondary/30 py-16 md:py-0">
         <div className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8 w-full">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-primary">
+            <h2 className="text-base font-semibold leading-7">
               Nuestros Servicios
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">

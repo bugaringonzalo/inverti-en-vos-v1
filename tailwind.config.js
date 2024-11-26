@@ -21,6 +21,7 @@ export default {
         navy: '#022554',
         amber: '#febd59',
         purple: '#ca6ce6',
+        purpleLight: '#f0d2f8',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {

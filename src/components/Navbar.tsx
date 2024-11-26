@@ -109,7 +109,7 @@ const Navbar = () => {
             <Button
               asChild
               className={`
-                bg-purple transition-all duration-500
+                bg-purpleLight transition-all duration-500
                 ${
                   isScrolled && scrollDirection === "down"
                     ? "opacity-70 scale-95"
@@ -161,7 +161,7 @@ const Navbar = () => {
                   ))}
                   <Button
                     asChild
-                    className="mt-4 bg-purple hover:bg-purple/90 text-navy"
+                    className="mt-4 bg-purpleLight hover:bg-purple/90 text-navy"
                   >
                     <Link to="/contact" onClick={() => setIsOpen(false)}>
                       Agendar Consulta
