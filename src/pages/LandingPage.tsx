@@ -3,6 +3,12 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import MissionSection from "@/components/MissionSection";
 
+// Importamos las imágenes
+import slider1 from "@/assets/slider1.jpg";
+import slider2 from "@/assets/slider2.jpg";
+import slider3 from "@/assets/slider3.jpg";
+import slider4 from "@/assets/slider4.jpg";
+
 import {
   Carousel,
   CarouselContent,
@@ -14,10 +20,10 @@ import {
 const LandingPage = () => {
   // Array de imágenes para el slider
   const sliderImages = [
-    "src/assets/slider1.jpg",
-    "src/assets/slider2.jpg",
-    "src/assets/slider3.jpg",
-    "src/assets/slider4.jpg",
+    slider1,
+    slider2,
+    slider3,
+    slider4,
   ];
 
   const features = [
