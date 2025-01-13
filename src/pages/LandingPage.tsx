@@ -47,6 +47,25 @@ const LandingPage = () => {
     },
   ];
 
+  const sliderTexts = [
+    {
+      title: "Título 1",
+      description: "Descripción breve 1",
+    },
+    {
+      title: "Título 2",
+      description: "Descripción breve 2",
+    },
+    {
+      title: "Título 3",
+      description: "Descripción breve 3",
+    },
+    {
+      title: "Título 4",
+      description: "Descripción breve 4",
+    },
+  ];
+
   return (
     <div className="min-h-screen overflow-y-auto snap-y snap-mandatory">
       {" "}
@@ -74,12 +93,12 @@ const LandingPage = () => {
                       <h2 className="text-2xl md:text-4xl font-bold mb-2 md:mb-4">
                         {" "}
                         {/* Ajustado tamaño responsivo */}
-                        Título {index + 1}
+                        {sliderTexts[index].title}
                       </h2>
                       <p className="text-base md:text-xl">
                         {" "}
                         {/* Ajustado tamaño responsivo */}
-                        Descripción breve {index + 1}
+                        {sliderTexts[index].description}
                       </p>
                     </div>
                   </div>
